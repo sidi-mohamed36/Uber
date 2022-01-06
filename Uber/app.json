@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "uber",
+    "slug": "uber",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "En utilisant React Native, j'ai construit une application Uber. avec l'utilisation des API Google, y compris les lieux, les directions et la matrice de distance pour calculer le temps de trajet, la distance, et le coût d'un chauffeur ."
+    
+  }
+}
